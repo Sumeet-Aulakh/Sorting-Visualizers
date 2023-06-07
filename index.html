@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sorting Visualizer</title>
+    <style>
+      .canvas-container {
+        display: flex;
+      }
+
+      .canvas {
+        border: 1px solid #ccc;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas-container">
+      <canvas
+        id="bubbleCanvas"
+        class="canvas"
+        width="400"
+        height="400"
+      ></canvas>
+      <canvas
+        id="selectionCanvas"
+        class="canvas"
+        width="400"
+        height="400"
+      ></canvas>
+      <canvas
+        id="insertionCanvas"
+        class="canvas"
+        width="400"
+        height="400"
+      ></canvas>
+      <canvas id="mergeCanvas" class="canvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
